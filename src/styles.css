@@ -12,3 +12,10 @@ body, html {
     background: url(http://www.njlogowear.com/portals/4/banner2_01.png) no-repeat right bottom;
     background-size: 75%;
 }
+
+@media screen and (orientation:portrait) {
+    body, html {    
+        background: url(http://www.njlogowear.com/portals/4/banner2_01.png) no-repeat bottom;
+        background-size: 100%;
+    }
+}
