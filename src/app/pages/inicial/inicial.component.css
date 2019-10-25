@@ -1,0 +1,33 @@
+/* personalizando a página inicial */
+div {
+    width: 50%;
+    text-align: center;
+    padding: 5%;
+
+    background-color: rgba(169, 169, 169, 0.7);
+    border-radius: 15px;
+
+    margin: 5%;
+}
+
+h2 {
+    margin-bottom: 2%;
+}
+
+@media screen and (orientation:portrait) {
+    div {
+        width: 70%;
+        text-align: center;
+        padding: 8%;
+    
+        background-color: rgba(169, 169, 169, 0.7);
+        border-radius: 15px;
+
+        margin: 20% auto;
+    
+    }
+    
+    h2 {
+        margin-bottom: 5%;
+    }
+}
