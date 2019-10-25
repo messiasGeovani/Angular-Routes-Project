@@ -1,0 +1,21 @@
+/* personalizando menu */
+nav {
+    margin: 0 10%;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 2%;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
