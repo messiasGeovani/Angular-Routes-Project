@@ -1,6 +1,6 @@
 /* personalizando menu */
 nav {
-    margin: 0 10%;
+    text-align: center;
 }
 
 nav ul {
@@ -8,14 +8,25 @@ nav ul {
 }
 
 nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+
+    color: black;
+}
+
+span {
+    font-family: montserrat;
+    font-size: 170%;
+
     display: inline-block;
-    margin: 0 2%;
+
+    padding: 2.5% 3%;
 }
 
-nav ul li a {
-    text-decoration: none;
-}
-
-nav ul li a {
-    text-decoration: none;
+span:hover {
+    background-color: lightgray;
+    transform: scale(1.1);
 }
