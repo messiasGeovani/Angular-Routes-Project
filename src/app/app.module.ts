@@ -2,12 +2,12 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
-import { MainComponent } from './components/main/main.component';
-import { InicialComponent } from './components/pages/inicial/inicial.component';
+import { AppComponent } from './app.component'
+import { InicialComponent } from './pages/inicial/inicial.component'
 
 @NgModule({
   declarations: [
-    MainComponent,
+    AppComponent,
     InicialComponent
   ],
   imports: [
@@ -15,6 +15,6 @@ import { InicialComponent } from './components/pages/inicial/inicial.component';
     AppRoutingModule
   ],
   providers: [],
-  bootstrap: [MainComponent]
+  bootstrap: [AppComponent]
 })
 export class AppModule { }
