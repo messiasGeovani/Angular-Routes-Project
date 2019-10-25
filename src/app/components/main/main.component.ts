@@ -4,6 +4,6 @@ import { Component } from '@angular/core';
   selector: 'app-root',
   template: '<p>app</p>'
 })
-export class AppComponent {
+export class MainComponent {
   title = 'Routes-Project';
 }
