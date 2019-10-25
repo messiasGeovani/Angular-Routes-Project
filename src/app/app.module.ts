@@ -5,14 +5,16 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component'
 import { InicialComponent } from './pages/inicial/inicial.component';
 import { QuemsomosComponent } from './pages/quemsomos/quemsomos.component';
-import { ContatoComponent } from './pages/contato/contato.component'
+import { ContatoComponent } from './pages/contato/contato.component';
+import { NavbarComponent } from './components/navbar/navbar.component'
 
 @NgModule({
   declarations: [
     AppComponent,
     InicialComponent,
     QuemsomosComponent,
-    ContatoComponent
+    ContatoComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
