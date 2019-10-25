@@ -1,0 +1,44 @@
+/* personalizando a página inicial */
+
+div.container {
+    background-color: rgba(115, 115, 115, 0.3);
+    padding: 2%;
+
+    text-align: center;
+
+    margin-top: 5%;
+
+}
+
+h2 {
+    margin-bottom: 5%;
+}
+
+p {
+    text-align: left;
+}
+
+img {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    width: 50%;
+    height: 400px;
+}
+
+@media screen and (orientation:portrait) {
+    div {
+        width: 80%;
+        text-align: center;
+        padding: 8%;
+    
+        background-color: rgba(169, 169, 169, 0.7);
+        border-radius: 15px;
+
+        margin: 13% auto;
+    
+    }
+    
+    h2 {
+        margin-bottom: 5%;
+    }
+}
