@@ -1,0 +1,57 @@
+/* personalizando a página inicial */
+div.container {
+
+    height: 100%;
+    
+    background: url(http://www.newdesignfile.com/postpic/2015/10/flat-contact-icon_179831.png) no-repeat fixed right bottom;
+    background-size: 25%;
+
+}
+
+
+div.caption {
+    width: 50%;
+    text-align: center;
+    padding: 5%;
+
+    background-color: rgba(169, 169, 169, 0.7);
+    border-radius: 15px;
+
+    position: absolute;
+    top: 20%;
+    
+    margin: 5%;
+}
+
+h2 {
+    margin-bottom: 2%;
+}
+
+p {
+    text-align: left;
+}
+
+img {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    width: 50%;
+    height: 400px;
+}
+
+@media screen and (orientation:portrait) {
+    div {
+        width: 80%;
+        text-align: center;
+        padding: 8%;
+    
+        background-color: rgba(169, 169, 169, 0.7);
+        border-radius: 15px;
+
+        margin: 13% auto;
+    
+    }
+    
+    h2 {
+        margin-bottom: 5%;
+    }
+}

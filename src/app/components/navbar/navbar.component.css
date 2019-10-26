@@ -1,25 +1,21 @@
 /* personalizando menu */
 nav {
     text-align: center;
+    margin-bottom: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #fff;
 }
 
-nav ul {
-    list-style: none;
-}
+nav a {
 
-nav ul li {
-    display: inline;
-}
-
-nav ul li a {
     text-decoration: none;
-
     color: black;
-}
 
-span {
     font-family: montserrat;
-    font-size: 170%;
+    font-size: 23px;
+    letter-spacing: 3px;
 
     display: inline-block;
 
@@ -27,8 +23,8 @@ span {
     padding-top: 3%;
 }
 
-span:hover {
-    background-color: lightgray;
+a:hover {
+    background-color: rgb(252, 252, 252);
     transform: scale(1.05);
 }
 
