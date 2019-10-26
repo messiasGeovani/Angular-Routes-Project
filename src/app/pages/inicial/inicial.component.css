@@ -1,5 +1,14 @@
 /* personalizando a página inicial */
-div {
+
+div.container {
+
+    height: 79%;
+    
+    background: url(http://www.njlogowear.com/portals/4/banner2_01.png) no-repeat right bottom;
+    background-size: 75%;
+}
+
+div.caption {
     width: 50%;
     text-align: center;
     padding: 5%;
@@ -15,7 +24,7 @@ h2 {
 }
 
 @media screen and (orientation:portrait) {
-    div {
+    div.caption {
         width: 80%;
         text-align: center;
         padding: 8%;
